@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const FaqSection = () => {
     return (
         <div className="faq">
@@ -37,5 +38,6 @@ Thanks for reading, I look forward to talking to you soon!</p>
         </div>
     )
 }
+
 
 export default FaqSection
