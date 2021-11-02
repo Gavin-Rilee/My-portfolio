@@ -1,19 +1,20 @@
 import React from 'react';
-import styled from 'styled-components'
+import styled from 'styled-components';
+import {Link} from 'react-router-dom';
 
 const Nav = () => {
     return (
         <NavBar>
-            <h1><a id='logo' href="#"></a>My Portfolio</h1>
+            <h1><Link id='logo' to="/"></Link>My Portfolio</h1>
             <ul>
                 <li>
-                    <a href="#">Home</a>
+                    <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <a href="#">Projects</a>
+                    <Link to="/work">Projects</Link>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <Link to="/contact">Contact</Link>
                 </li>
             </ul>    
         </NavBar>
@@ -48,6 +49,6 @@ h1{
       position: relative;
   }
 
-`
+`;
 
 export default Nav
