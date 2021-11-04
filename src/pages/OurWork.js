@@ -2,34 +2,41 @@ import React from 'react';
 import styled from 'styled-components';
 import {Link} from 'react-router-dom';
 //Images
-import athlete from '../img/athlete-small.png';
-import theracer from '../img/theracer-small.png';
-import goodtimes from '../img/goodtimes-small.png';
+import project1 from '../img/project1.jpg';
+import project2 from '../img/project2.jpg';
+import project3 from '../img/project3.png';
+import project4 from '../img/project4.png';
+//Animations
+import {motion} from 'framer-motion';
+import { pageAnimation } from '../animation';
+
+
+
 
 const OurWork = () => {
   return (
-    <Work>
+    <Work style={{ background: "#fff"}} exit="exit" variants={pageAnimation} initial="hidden" animate="show">
       <Project>
         <h2>The Athlete</h2>
         <div className="line"></div>
-        <Link>
-        <img src={athlete} alt="athlete" />
+        <Link to="/work/project1">
+        <img src={project1} alt="project1" />
         </Link>
 
       </Project>
       <Project>
         <h2>The Racer</h2>
         <div className="line"></div>
-        <Link>
-        <img src={theracer} alt="theracer" />
+        <Link to="/work/project4">
+        <img src={project4} alt="project4" />
         </Link>
 
       </Project>
       <Project>
         <h2>Good times</h2>
         <div className="line"></div>
-        <Link>
-        <img src={goodtimes} alt="goodtimes" />
+        <Link to="/work/project3">
+        <img src={project3} alt="project3" />
         </Link>
 
       </Project>
@@ -37,7 +44,7 @@ const OurWork = () => {
   )
 }
 
-const Work = styled.div`
+const Work = styled(motion.div)`
 min-height: 100vh;
 overflow: hidden;
 padding: 5rem 10rem;
