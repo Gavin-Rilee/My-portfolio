@@ -1,10 +1,10 @@
 import React from "react";
 import home1 from "../img/home1.png";
-import { About, Descripton, Image, Hide } from "./styles";
+import { About, Descripton, Image, Hide } from "../styles";
 //Framer Motion
 import { motion } from "framer-motion";
-// import { titleAnim, fade, photoAnim } from "../animation";
-// import Wave from "./Wave"
+import { titleAnim, fade, photoAnim } from "../animation";
+ import Wave from "./Wave"
 
 const AboutSection = () => {
   return (
@@ -12,26 +12,27 @@ const AboutSection = () => {
       <Descripton>
         <motion.div className="title">
           <Hide>
-            <motion.h2>I work to make</motion.h2>
+            <motion.h2 variants={titleAnim}>I work to make</motion.h2>
           </Hide>
           <Hide>
-            <motion.h2>
-              your <span>dreams</span> come{" "}
+            <motion.h2 variants={titleAnim}>
+              your <span>dreams</span> come
             </motion.h2>
           </Hide>
           <Hide>
-            <motion.h2>true.</motion.h2>
+            <motion.h2 variants={titleAnim}>true.</motion.h2>
           </Hide>
-          <p>
-            {" "}
+          <motion.p variants={fade}>
+            
             Contact me for any questions or ideas you want me to bring to life!
-          </p>
-          <button>Contact Me</button>
+          </motion.p>
+          <motion.button variants={fade}>Contact Me</motion.button>
         </motion.div>
+        </Descripton>
         <Image>
-          <img src={home1} alt="front page maybe you" />
+          <motion.img variants={photoAnim} src={home1} alt="front page maybe you" />
         </Image>
-      </Descripton>
+      <Wave/>
     </About>
   );
 };
