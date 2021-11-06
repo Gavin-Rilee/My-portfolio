@@ -6,13 +6,13 @@ import money from "../img/money.svg";
 import teamwork from "../img/teamwork.svg";
 import home2 from "../img/home2.png";
 //styles
-import { About, Descripton,Image } from '../styles';
+import { About, Description,Image } from '../styles';
 import styled from 'styled-components'
 
 const Qualities = () => {
     return (
         <Quality>
-            <Descripton>
+            <Description>
                 <h2>High <span>quality</span>  skills</h2>
                 <Cards>
                     <Card>
@@ -44,7 +44,7 @@ const Qualities = () => {
                         <p>Lorem ipsum dolor sit amet, consectetur adip</p>
                     </Card>
                 </Cards>
-            </Descripton>
+            </Description>
             <Image>
                 <img src={home2} alt ="fix later" />
             </Image>
