@@ -10,15 +10,15 @@ import { pageAnimation } from '../animation';
 const MovieDetail = () => {
     const history = useHistory();
     const url = history.location.pathname;
-    const [projects, setProjects] = useState(ProjectState)
+    // const [projects, setProjects] = useState(ProjectState)
     const [project, setProject] = useState(null)
 
     //useEffect
     useEffect(() => {
-        const currentProject = projects.filter((stateProject) => stateProject.url === url);
+        const currentProject = ProjectState.filter((stateProject) => stateProject.url === url);
         setProject(currentProject[0]);
 
-    },[projects,url])
+    },[url])
 
     return (
         <>
