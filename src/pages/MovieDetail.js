@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import styled from 'styled-components';
 import {useHistory} from 'react-router-dom';
 import {ProjectState} from '../ProjectState';
+
 //Animations
 import {motion} from 'framer-motion';
 import { pageAnimation } from '../animation';
@@ -29,7 +30,7 @@ const MovieDetail = () => {
             </Headline>
             <Awards>
                 {project.awards.map((award) => (
-                    <Award title={award.title}  description={award.description} key={award.title}/>
+                    <Award title={award.title}  description={award.description} link={award.link} key={award.title}/>
                 )
 
             )}

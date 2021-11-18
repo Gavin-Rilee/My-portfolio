@@ -1,77 +1,83 @@
 //Import Images
-import project1 from "./img/project1.jpg"
-import project3 from "./img/project3.png"
-import project4 from "./img/project4.png"
-
+import project1 from "./img/project1.jpg";
+import hrf_protest from "./img/hrf_protest.png";
+import project3 from "./img/project3.png";
+import cryptid from "./img/cryptid.png";
+import encryptid from'./img/encryptid.png'
+import project4 from "./img/project4.png";
+import starbucks_logo from './img/starbucks_logo.png';
+import coffee from './img/coffee.png'
 
 export const ProjectState = () => {
   return [
     {
       title: "Human Rights First",
       mainImg: project1,
-      secondaryImg: project1,
+      secondaryImg: hrf_protest,
       url: "/work/project1",
       awards: [
         {
-          title: "Truly A masterpiece",
+          title: "A beautiful cause",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "“Led a team of more than 25 to complete this amazing project. Was an incredible way to be introduced to this industry.”",
+
         },
         {
-          title: "Fresh look on a wonderful portfolio.",
+          title: "Wow.",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "“Was impress by the amount of pride put in to this project.”",
         },
         {
-          title: "It’s okay lmao.",
+          title: "A wonderful project",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "“The premise of helping people all arounf the world was truly moving to me. Loved that I was one of the few to work on it!”",
         },
       ],
     },
     {
       title: "Encryptid",
-      mainImg: project3,
+      mainImg: encryptid,
       url: "/work/project3",
-      secondaryImg: project3,
+      secondaryImg: cryptid,
       awards: [
         {
-          title: "Truly A masterpiece",
+          title: "Joe P",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "“I have loved this stuff since day one and to be a working on a project with it has been unbelievable ”",
         },
         {
-          title: "Fresh look on a project.",
+          title: "Leah K",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "“Loved everything about this project and working with my team.”",
         },
         {
-          title: "It’s okay lmao.",
+          title: "Gavin R",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "“This has been an amazing venture so far. with the adept skillset the team brings to the table, and the burning passion I have for this stuff I couldn't be happier”",
         },
       ],
     },
     {
       title: "Starbucks",
-      mainImg: project4,
+      mainImg: starbucks_logo,
       url: "/work/project4",
-      secondaryImg: project4,
+      secondaryImg: coffee,
       awards: [
         {
           title: "Truly A masterpiece",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "“I mean have you looked at it”",
+          
         },
         {
-          title: "Fresh look on a brutal sport.",
+          title: "Fresh look on a coffee buisness.",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "“Fresh to death :)”",
         },
         {
           title: "It’s okay lmao.",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "“Also a quote from me.”",
         },
       ],
     },

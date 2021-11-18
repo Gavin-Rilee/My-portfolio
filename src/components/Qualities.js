@@ -9,6 +9,8 @@ import home2 from "../img/coding.png";
 import { About, Description,Image } from '../styles';
 import styled from 'styled-components'
 
+
+
 const Qualities = () => {
     return (
         <Quality>

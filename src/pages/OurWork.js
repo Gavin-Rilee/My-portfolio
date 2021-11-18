@@ -2,10 +2,12 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 //Images
-import project1 from "../img/project1.jpg";
+import project1 from "../img/project1.png";
 import project2 from "../img/project2.jpg";
 import project3 from "../img/project3.png";
+import encryptid from "../img/encryptid.png"
 import project4 from "../img/project4.png";
+import starbucks_logo from "../img/starbucks_logo.png"
 //Animations
 import { motion } from "framer-motion";
 import { sliderContainer, slider, pageAnimation, fade, photoAnim, lineAnim } from "../animation";
@@ -34,16 +36,18 @@ const OurWork = () => {
         <motion.div variants={lineAnim} className="line"></motion.div>
         <Link to="/work/project1">
           <Hide>
-            <motion.img variants={photoAnim} src={project1} alt="athlete" />
+            <motion.img variants={photoAnim} src={project1} alt="Human rights first logo" />
+            <a href="https://github.com/BloomTech-Labs/human-rights-first-asylum-fe-a">HRF Repo Link</a>
           </Hide>
         </Link>
       </Project>
 
       <Project ref={element} variants={fade} animate={controls} initial="hidden">
-        <h2>Encryptid project</h2>
+        <h2>Encryptid Project</h2>
         <motion.div variants={lineAnim} className="line"></motion.div>
         <Link to="/work/project3">
-          <img src={project3} alt="Encryptid" />
+          <img src={encryptid} alt="Encryptid project" />
+          <a href='https://github.com/jlpanetta1681/encryptid'>Encryptid Repo Link</a>
         </Link>
       </Project>
 
@@ -53,10 +57,11 @@ const OurWork = () => {
         animate={controls2}
         initial="hidden"
       >
-        <h2>Starbucks clone</h2>
+        <h2>Starbucks Clone</h2>
         <motion.div variants={lineAnim} className="line"></motion.div>
         <Link to="/work/project4">
-          <img src={project4} alt="Starbucks" />
+          <img src={starbucks_logo} alt="Starbucks clone" />
+          <a href='https://github.com/Gavin-Rilee/sbClone'>Starbucks repo link</a>
         </Link>
       </Project>
       <ScrollTop />
@@ -86,6 +91,12 @@ const Project = styled(motion.div)`
     width: 100%;
     height: 70vh;
     object-fit: cover;
+  }
+  a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin: 1rem;
   }
 `;
 const Hide = styled.div`
