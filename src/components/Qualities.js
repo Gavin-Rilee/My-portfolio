@@ -4,7 +4,7 @@ import clock from "../img/clock.svg";
 import diaphragm from "../img/diaphragm.svg";
 import money from "../img/money.svg";
 import teamwork from "../img/teamwork.svg";
-import home2 from "../img/home2.png";
+import home2 from "../img/coding.png";
 //styles
 import { About, Description,Image } from '../styles';
 import styled from 'styled-components'
@@ -20,33 +20,33 @@ const Qualities = () => {
                             <img src={clock} alt=""/>
                             <h3>Efficient</h3>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adip</p>
+                        <p>I work on your timeline and make sure to get done when you need it</p>
                     </Card>
                     <Card>
                         <div className="icon">
                             <img src={teamwork} alt=""/>
                             <h3>Teamwork</h3>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adip</p>
+                        <p>Lead over 20 developers on one project with efficient speed and leadership</p>
                     </Card>
                     <Card>
                         <div className="icon">
                             <img src={diaphragm} alt=""/>
-                            <h3>Diaphragm</h3>
+                            <h3>Planning</h3>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adip</p>
+                        <p>Adept planner using tools such as Figma, Trello, and Miro</p>
                     </Card>
                     <Card>
                         <div className="icon">
                             <img src={money} alt=""/>
                             <h3>Affordable</h3>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adip</p>
+                        <p>Will work with anyone's budget!</p>
                     </Card>
                 </Cards>
             </Description>
             <Image>
-                <img src={home2} alt ="fix later" />
+                <img src={home2} alt ="Coding example" />
             </Image>
         </Quality>
     )
@@ -72,6 +72,7 @@ flex-basis: 20rem;
 .icon{
 display:flex;
 align-items: center;
+
 }
 h3{
     margin-left: 1rem;
