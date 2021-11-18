@@ -1,12 +1,10 @@
 //Import Images
 import project1 from "./img/project1.jpg";
 import hrf_protest from "./img/hrf_protest.png";
-import project3 from "./img/project3.png";
 import cryptid from "./img/cryptid.png";
-import encryptid from'./img/encryptid.png'
-import project4 from "./img/project4.png";
-import starbucks_logo from './img/starbucks_logo.png';
-import coffee from './img/coffee.png'
+import encryptid from "./img/encryptid.png";
+import starbucks_logo from "./img/starbucks_logo.png";
+import coffee from "./img/coffee.png";
 
 export const ProjectState = () => {
   return [
@@ -20,7 +18,6 @@ export const ProjectState = () => {
           title: "A beautiful cause",
           description:
             "“Led a team of more than 25 to complete this amazing project. Was an incredible way to be introduced to this industry.”",
-
         },
         {
           title: "Wow.",
@@ -65,19 +62,15 @@ export const ProjectState = () => {
       awards: [
         {
           title: "Truly A masterpiece",
-          description:
-            "“I mean have you looked at it”",
-          
+          description: "“I mean have you looked at it”",
         },
         {
           title: "Fresh look on a coffee buisness.",
-          description:
-            "“Fresh to death :)”",
+          description: "“Fresh to death :)”",
         },
         {
           title: "It’s okay lmao.",
-          description:
-            "“Also a quote from me.”",
+          description: "“Also a quote from me.”",
         },
       ],
     },

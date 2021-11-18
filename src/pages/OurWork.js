@@ -3,10 +3,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 //Images
 import project1 from "../img/project1.png";
-import project2 from "../img/project2.jpg";
-import project3 from "../img/project3.png";
-import encryptid from "../img/encryptid.png"
-import project4 from "../img/project4.png";
+import encryptid from "../img/encryptid.png";
 import starbucks_logo from "../img/starbucks_logo.png"
 //Animations
 import { motion } from "framer-motion";
