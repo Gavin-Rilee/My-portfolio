@@ -26,7 +26,7 @@ const AboutSection = () => {
             
             Contact me for any questions or ideas you want me to bring to life!
           </motion.p>
-          <motion.button variants={fade}>Contact Me</motion.button>
+          <motion.button variants={fade} onclick="window.location.href = 'https://docs.google.com/document/d/1IjQs8YdgxlFQUOPZuS0IYl6EjROz81Qqg1JtGjf7Zlc/edit?usp=sharing';">Contact Me</motion.button>
         </motion.div>
         </Description>
         <Image>
