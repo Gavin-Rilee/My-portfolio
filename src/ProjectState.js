@@ -1,8 +1,8 @@
 //Import Images
 import project1 from "./img/project1.jpg";
 import hrf_protest from "./img/hrf_protest.png";
-import cryptid from "./img/cryptid.png";
-import encryptid from "./img/encryptid.png";
+import ignite from "./img/ignite.png";
+import ignite2 from "./img/ignite2.png";
 import starbucks_logo from "./img/starbucks_logo.png";
 import coffee from "./img/coffee.png";
 
@@ -31,20 +31,20 @@ export const ProjectState = [
     ],
   },
   {
-    title: "Encryptid",
-    mainImg: encryptid,
+    title: "Ignite",
+    mainImg: ignite,
     url: "/work/project3",
-    secondaryImg: cryptid,
+    secondaryImg: ignite2,
     awards: [
       {
-        title: "Joe P",
+        title: "Marcus L",
         description:
           "“I have loved this stuff since day one and to be a working on a project with it has been unbelievable ”",
       },
       {
-        title: "Leah K",
+        title: "Gavin R",
         description:
-          "“Loved everything about this project and working with my team.”",
+          "“Loved everything about this project”",
       },
       {
         title: "Gavin R",

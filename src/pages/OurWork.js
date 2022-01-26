@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 //Images
 import project1 from "../img/project1.png";
-import encryptid from "../img/encryptid.png";
+import ignite from "../img/ignite.png"
 import starbucks_logo from "../img/starbucks_logo.png"
 //Animations
 import { motion } from "framer-motion";
@@ -34,17 +34,16 @@ const OurWork = () => {
         <Link to="/work/project1">
           <Hide>
             <motion.img variants={photoAnim} src={project1} alt="Human rights first logo" />
-            <a href="https://github.com/BloomTech-Labs/human-rights-first-asylum-fe-a">HRF Repo Link</a>
+            
           </Hide>
         </Link>
       </Project>
 
       <Project ref={element} variants={fade} animate={controls} initial="hidden">
-        <h2>Encryptid Project</h2>
+        <h2>Ignite Project</h2>
         <motion.div variants={lineAnim} className="line"></motion.div>
         <Link to="/work/project3">
-          <img src={encryptid} alt="Encryptid project" />
-          <a href='https://github.com/jlpanetta1681/encryptid'>Encryptid Repo Link</a>
+          <img src={ignite} alt="Video game project" />
         </Link>
       </Project>
 
@@ -58,7 +57,7 @@ const OurWork = () => {
         <motion.div variants={lineAnim} className="line"></motion.div>
         <Link to="/work/project4">
           <img src={starbucks_logo} alt="Starbucks clone" />
-          <a href='https://github.com/Gavin-Rilee/sbClone'>Starbucks repo link</a>
+          
         </Link>
       </Project>
       <ScrollTop />
