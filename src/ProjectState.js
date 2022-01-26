@@ -19,9 +19,9 @@ export const ProjectState = [
           "“Led a team of more than 25 to complete this amazing project. Was an incredible way to be introduced to this industry.”",
       },
       {
-        title: "Wow.",
+        title: "Link to the Repository",
         description:
-          "“Was impress by the amount of pride put in to this project.”",
+          "“https://github.com/BloomTech-Labs/human-rights-first-asylum-fe-a”",
       },
       {
         title: "A wonderful project",
@@ -42,9 +42,9 @@ export const ProjectState = [
           "“I have loved this stuff since day one and to be a working on a project with it has been unbelievable ”",
       },
       {
-        title: "Gavin R",
+        title: "Link to the Repository",
         description:
-          "“Loved everything about this project”",
+          "“https://github.com/Gavin-Rilee/ignite”",
       },
       {
         title: "Gavin R",
@@ -64,8 +64,8 @@ export const ProjectState = [
         description: "“I mean have you looked at it”",
       },
       {
-        title: "Fresh look on a coffee buisness.",
-        description: "“Fresh to death :)”",
+        title: "Link to the Repository",
+        description: "“https://github.com/Gavin-Rilee/sbClone”",
       },
       {
         title: "It’s okay lmao.",
